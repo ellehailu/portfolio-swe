@@ -1,5 +1,5 @@
 // Add bio page 
-import Header from "./Header"
+
 
 const About = () => {
     return (
