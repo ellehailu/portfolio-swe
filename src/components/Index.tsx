@@ -1,11 +1,12 @@
 
 
-const Index = () => {
-    return(
-        <div>
+export function Index () {
+    return (
+        <h2>
+           Hi, I'm Elle, a developer, a researcher, a writer, and a storyteller!
 
-        </div>
+        This is a little look into who I am and what I do. 
+            Enjoy!
+    </h2>
     )
 }
-
-export default Index

@@ -1,12 +1,14 @@
 // Add bio page 
+import Header from "./Header"
 
 const About = () => {
     return (
         <div>
             <>
-            <h2>About me</h2>
+            <h2>Hello! I am glad you are here!</h2>
                 <p>
-                    Welcome, I am glad you are here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatem laboriosam nisi laudantium ratione molestiae temporibus ex odit corrupti repudiandae aliquid maxime recusandae consequuntur aperiam quis, quaerat minima quibusdam enim! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, modi. Sint nostrum ad accusantium dolore doloremque, omnis a odit tenetur voluptate eos, quas pariatur exercitationem porro molestiae. Odit, ipsum dolorem!
+                    My name is Elshadai but most people call me “Elle.” When I am not at my desk writing, you can find me outdoors hiking, paddleboarding, running or curled up on my couch with a cup of tea and a good book. 
+
                 </p>
             </>
             <>

@@ -1,19 +1,23 @@
-import Heading from "./components/Heading"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import React from "react"
+import Header from "./components/Header"
 import Contact from "./components/Contact"
 import About from "./components/About"
-import Index from "./components/Index"
+import { Index } from "./components/Index"
 
 
 function App() {
   
   return (
     <>
-      <Index />
-      <Heading title = {"Hellllooooo!"} />
-      <About />
-      <Contact />
-      
-
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
