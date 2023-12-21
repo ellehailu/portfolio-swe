@@ -1,12 +1,13 @@
-
+import './../index.css';
 
 export function Index () {
     return (
-        <h2>
-           Hi, I'm Elle, a developer, a researcher, a writer, and a storyteller!
-
-        This is a little look into who I am and what I do. 
+        <div className="index">
+            <h2 id='typed'>Hi, I'm Elle, a developer, a researcher, a writer, a storyteller...</h2>
+           <h2>
+           This is a little look into who I am and what I do. 
             Enjoy!
-    </h2>
+           </h2>
+        </div> 
     )
 }

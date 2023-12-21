@@ -2,9 +2,9 @@ import Header from "./Header";
 
 const Projects = () => {
     return (
-        <>
-            <h2>Visit my github</h2>
-        </>
+        <div>
+            <h4>Check out my github to see what i am currently working on!</h4>
+        </div>
     )
 }
 

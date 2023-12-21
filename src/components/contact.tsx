@@ -1,14 +1,11 @@
-import Header from "./Header"
+
 
 const Contact = () => {
     return (
-        <>
-            <h1>
-                Get in touch! I'd love to connect!
-            </h1>
-            <h2>Email: hailu.elle@gmail.com</h2>
-        </>  
+        <div className="contact">
+            <h1>Get in touch! I'd love to connect!</h1>
+            <h3>Email: hailu.elle@gmail.com</h3>
+        </div>  
     )
 }
-
 export default Contact
